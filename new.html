@@ -1,0 +1,1439 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HBD to the bestest best friend on earth 🎂</title>
+
+<!-- 🎂 Birthday Cake Favicon --> <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎂</text></svg>" >
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ font-family:Poppins,sans-serif;
+ background:#100716;color:#fff;
+ overflow-x:hidden
+}
+button,input{font:inherit}
+button{
+ border:0;cursor:pointer;color:white;
+ background:linear-gradient(135deg,#ff4fa3,#a14dff);
+ padding:13px 23px;border-radius:30px;
+ font-weight:600;transition:.25s;margin:6px;
+}
+button:hover{transform:translateY(-3px);filter:brightness(1.12)}
+button:focus-visible,input:focus-visible{outline:3px solid #ffb5e0;outline-offset:3px}
+input{
+ padding:12px;border-radius:12px;
+ border:1px solid #70426f;background:#1d1025;
+ color:white;width:min(100%,320px);margin:8px
+}
+.hero{
+ min-height:100vh;display:flex;align-items:center;
+ justify-content:center;text-align:center;padding:30px;
+ background:radial-gradient(circle at 20% 20%,#702363,transparent 40%),
+ radial-gradient(circle at 80% 80%,#35206e,transparent 40%),#100716
+}
+.hero-content{max-width:800px;animation:rise 1s ease}
+.eyebrow{color:#ff9fd5;letter-spacing:3px;font-size:12px;margin-bottom:18px}
+h1,h2,.script{font-family:"Dancing Script",cursive}
+h1{font-size:clamp(48px,9vw,90px);line-height:1.15;margin:15px 0}
+h1 span{color:#ff81c8}
+h2{font-size:clamp(35px,6vw,55px);margin-bottom:15px}
+p{line-height:1.8}
+.muted{color:#c5b5ca}
+section.content{padding:75px 20px;text-align:center}
+.section-inner{width:min(1050px,100%);margin:auto}
+.section-label{color:#ff8dcc;font-size:12px;letter-spacing:3px;margin-bottom:12px}
+.panel{
+ background:#ffffff0a;border:1px solid #ffffff18;
+ border-radius:24px;padding:25px;margin:22px auto;
+ box-shadow:0 15px 45px #0002;
+}
+.pink{color:#ff9fd5}
+.hidden{display:none!important}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin-top:25px}
+.card{
+ background:#ffffff0a;border:1px solid #ffffff18;
+ border-radius:18px;padding:22px 14px;
+ min-width:0;transition:.3s
+}
+.card:hover{background:#ffffff12}
+.big-emoji{font-size:38px;display:block;margin-bottom:10px}
+.gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin-top:25px}
+.photo{
+ border-radius:18px;overflow:hidden;background:#24122d;
+ border:1px solid #ffffff1a
+}
+.photo img{width:100%;height:220px;object-fit:cover;display:block}
+.caption{padding:12px;font-size:13px}
+.mystery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.mystery{
+ background:linear-gradient(135deg,#5a256b,#a62e84);
+ border:1px solid #ffb5df50;border-radius:18px;
+ padding:28px 8px;min-height:130px;font-size:30px
+}
+.mystery small{display:block;font-size:12px;margin-top:10px}
+.quiz-option{display:block;width:100%;max-width:420px;margin:10px auto;text-align:left;background:#2a1834;border:1px solid #68406f}
+.quiz-option:hover{background:#573052}
+#quizQuestion{font-size:20px;margin:20px 0}
+.progress{height:8px;background:#33223b;border-radius:20px;overflow:hidden;margin:15px auto;max-width:420px}
+#progressFill{height:100%;width:0;background:#ff75c8;transition:.3s}
+.memory-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.memory-card{
+ min-height:100px;border-radius:15px;background:#38204b;
+ border:1px solid #ffffff20;color:white;font-size:28px;padding:10px
+}
+.memory-card.flipped{background:#61265b;font-size:14px}
+.fortune{font-size:20px;color:#ffb1dd;min-height:70px;padding:15px}
+.game-area{
+ position:relative;overflow:hidden;min-height:260px;
+ background:linear-gradient(145deg,#291235,#171020);
+ border:1px solid #ffffff18;border-radius:20px;margin-top:20px;
+ touch-action:manipulation
+}
+.game-heart{
+ position:absolute;cursor:pointer;border:0;background:transparent;
+ font-size:30px;padding:4px;margin:0;line-height:1;
+}
+.game-heart:hover{transform:scale(1.15)}
+.timeline{max-width:650px;margin:25px auto;text-align:left}
+.timeline-item{padding:8px 0 22px 22px;border-left:2px solid #b94e9b;position:relative}
+.timeline-item:before{content:"❤️";position:absolute;left:-13px;top:6px;background:#100716}
+.final{
+ padding:90px 20px;text-align:center;
+ background:radial-gradient(circle,#512047,#15091d 65%)
+}
+.final-heart{font-size:65px;animation:pulse 1.2s infinite}
+.heart-float{
+ position:fixed;bottom:-40px;pointer-events:none;z-index:10;
+ animation:floatUp linear forwards
+}
+.confetti{
+ position:fixed;top:-30px;pointer-events:none;z-index:999;
+ animation:fall linear forwards
+}
+footer{text-align:center;color:#a99aac;padding:25px;font-size:12px}
+@keyframes rise{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{50%{transform:scale(1.18)}}
+@keyframes floatUp{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:.8}}
+@media(max-width:760px){
+ .grid{grid-template-columns:1fr}
+ .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .photo img{height:190px}
+ .memory-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:400px){
+ .gallery{grid-template-columns:1fr}
+ .mystery-grid{gap:7px}
+ .mystery{padding:20px 4px;font-size:25px}
+ .memory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation-duration:.01ms!important;scroll-behavior:auto!important;transition:none!important}
+}
+/* =========================
+   BIRTHDAY TIMER
+========================= */
+
+.birthday-timer {
+  width: min(650px, 100%);
+  margin: 28px auto 20px;
+  padding: 20px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.timer-title {
+  color: #ff9fd5;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.timer-boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.timer-box {
+  padding: 14px 8px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.timer-box span {
+  display: block;
+  font-size: clamp(25px, 5vw, 40px);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.timer-box small {
+  display: block;
+  margin-top: 6px;
+  color: #cdbbd2;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+#timerMessage {
+  color: #ff9fd5;
+  font-size: 14px;
+  margin-top: 15px;
+  min-height: 22px;
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+
+  .birthday-timer {
+    padding: 15px 10px;
+  }
+
+  .timer-boxes {
+    gap: 6px;
+  }
+
+  .timer-box {
+    padding: 11px 4px;
+  }
+
+  .timer-box span {
+    font-size: 24px;
+  }
+
+  .timer-box small {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+
+}
+/* =========================
+   MYSTERY BOX POPUP
+========================= */
+
+.mystery-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+
+  z-index: 9999;
+}
+
+.mystery-popup.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* Popup Card */
+
+.popup-card {
+  position: relative;
+
+  width: 100%;
+  max-width: 650px;
+
+  background: linear-gradient(
+    145deg,
+    #2b1238,
+    #180b22
+  );
+
+  border: 2px solid #ff69b4;
+  border-radius: 24px;
+
+  padding: 20px;
+
+  box-shadow:
+    0 0 30px rgba(255, 105, 180, 0.35),
+    0 20px 60px rgba(0, 0, 0, 0.5);
+
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+.mystery-popup.active .popup-card {
+  transform: scale(1);
+}
+
+
+/* Video */
+
+.popup-video-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #000;
+}
+
+#popupVideo {
+  display: block;
+
+  width: 100%;
+  max-height: 350px;
+
+  object-fit: cover;
+}
+
+
+/* Popup Text */
+
+.popup-content {
+  text-align: center;
+  padding: 20px 10px 10px;
+}
+
+.popup-content h2 {
+  color: #ff69b4;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.popup-content p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+/* Close Button */
+
+.popup-close {
+  position: absolute;
+
+  top: 10px;
+  right: 10px;
+
+  width: 40px;
+  height: 40px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #ff69b4;
+  color: #fff;
+
+  font-size: 28px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  z-index: 10;
+
+  transition: 0.2s ease;
+}
+
+.popup-close:hover {
+  background: #ff1493;
+  transform: rotate(90deg);
+}
+
+
+/* Mystery Boxes */
+
+.mystery {
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.mystery:hover {
+  transform: translateY(-8px) scale(1.05);
+
+  box-shadow:
+    0 10px 30px rgba(255, 105, 180, 0.3);
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .popup-card {
+    padding: 15px;
+    border-radius: 18px;
+  }
+
+  #popupVideo {
+    max-height: 250px;
+  }
+
+  .popup-content h2 {
+    font-size: 23px;
+  }
+
+  .popup-content p {
+    font-size: 15px;
+  }
+
+  .popup-close {
+    width: 35px;
+    height: 35px;
+    font-size: 23px;
+  }
+}
+</style>
+</head>
+
+<body>
+<!-- 1. WELCOME -->
+<header class="hero">
+ <div class="hero-content">
+
+  <p class="eyebrow">
+   ✨ A LITTLE SURPRISE TO MAKE YOUR DAY MORE BEAUTIFUL AND UNFORGETTABLE ✨
+  </p>
+
+  <h1>
+   Hey, <span id="friendHeading">My Best Friend!</span> 👸🏻
+  </h1>
+
+  <p class="muted">
+   Someone as special as you deserves something magical.
+  </p>
+
+  <p style="margin-top:12px">
+   Ready for a little adventure full of memories, games and Suprise?
+  </p>
+
+
+  <!-- 🎂 BIRTHDAY COUNTDOWN -->
+  <div class="birthday-timer">
+
+   <p class="timer-title">
+    🎂 COUNTDOWN TO YOUR BIRTHDAY 🎂
+   </p>
+
+   <div class="timer-boxes">
+
+    <div class="timer-box">
+     <span id="timerDays">00</span>
+     <small>Days</small>
+    </div>
+
+    <div class="timer-box">
+     <span id="timerHours">00</span>
+     <small>Hours</small>
+    </div>
+
+    <div class="timer-box">
+     <span id="timerMinutes">00</span>
+     <small>Minutes</small>
+    </div>
+
+    <div class="timer-box">
+     <span id="timerSeconds">00</span>
+     <small>Seconds</small>
+    </div>
+
+   </div>
+
+   <p id="timerMessage">
+    Your special day is getting closer... 🎉
+   </p>
+
+  </div>
+
+
+  <button id="startBtn">
+   🎁 Open Your Surprise
+  </button>
+
+ </div>
+</header>
+
+<main id="mainContent" class="hidden">
+
+<!-- 2. PERSONAL MESSAGE -->
+<section class="content" style="background:#1b0c24">
+ <div class="section-inner">
+  <p class="section-label">💌 A MESSAGE FROM MY HEART</p>
+  <h2>Dear <span id="friendName" class="pink">shanuu</span> 👸🏻</h2>
+  <div class="panel" style="max-width:700px">
+   <p>Thank you for every laugh, every crazy moment, every silly fight and every memory we share.</p>
+   <p style="margin-top:15px">You make ordinary days extraordinary. No matter where life takes us, I hope our friendship continues to grow.</p>
+   <p class="pink script" style="font-size:28px;margin-top:22px">You are a beautiful part of my story. 💖</p>
+   <p class="muted" style="margin-top:15px">Forever your best friends ✨</p>
+  </div>
+ </div>
+</section>
+
+<!-- 3. PHOTO GALLERY -->
+<section class="content">
+ <div class="section-inner">
+  <p class="section-label">📸 OUR LITTLE WORLD</p>
+  <h2>Memories That Make Me Smile</h2>
+  <p class="muted"></p>
+  <div class="gallery">
+   <div class="photo">
+    <img src="images/1.jpeg" alt="Friends spending time together">
+    <div class="caption">Rahul Kalyanam 🥳</div>
+   </div>
+   <div class="photo">
+    <img src="images/44.jpeg" alt="Friends laughing together">
+    <div class="caption">Your B 💜</div>
+   </div>
+   <div class="photo">
+    <img src="images/3.jpeg" alt="A happy celebration">
+    <div class="caption">Cringe forever ♾️ </div>
+   </div>
+   <div class="photo">
+    <img src="images/12.jpg" alt="A group of friends">
+    <div class="caption">Unforgettable days ✨</div>
+   </div>
+   <div class="photo">
+    <img src="images/22.jpeg" alt="A group of friends">
+    <div class="caption">Thambi gang 💪</div>
+   </div>
+   <div class="photo">
+    <img src="images/66.jpeg" alt="A group of friends">
+    <div class="caption">Since childhood 👭</div>
+   </div>
+   <div class="photo">
+    <img src="images/7.jpeg" alt="A group of friends">
+    <div class="caption">Chennaiyil oru naal 🧿</div>
+   </div>
+   <div class="photo">
+    <img src="images/8.jpeg" alt="A group of friends">
+    <div class="caption">Chaos 🤡</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+
+<!-- 4. MYSTERY BOXES -->
+<section class="content" style="background:#1b0c24">
+  <div class="section-inner">
+
+    <p class="section-label">🎁 ACTIVITY ONE</p>
+
+    <h2>Choose Your Mystery Box</h2>
+
+    <p class="muted">
+      Each box hides a little surprise. Open all three!
+    </p>
+
+    <div class="mystery-grid" style="max-width:650px;margin:25px auto">
+
+      <button class="mystery" data-box="0" aria-label="Open mystery box one">
+        🎁
+        <small>Box One</small>
+      </button>
+
+      <button class="mystery" data-box="1" aria-label="Open mystery box two">
+        🎁
+        <small>Box Two</small>
+      </button>
+
+      <button class="mystery" data-box="2" aria-label="Open mystery box three">
+        🎁
+        <small>Box Three</small>
+      </button>
+
+    </div>
+
+    <p id="boxMessage" class="pink" aria-live="polite">
+      Choose a box to reveal your message 💌
+    </p>
+
+  </div>
+</section>
+
+
+<!-- MYSTERY BOX POPUP -->
+<div id="mysteryPopup" class="mystery-popup" aria-hidden="true">
+
+  <div class="popup-card">
+
+    <button class="popup-close" id="closePopup" aria-label="Close popup">
+      &times;
+    </button>
+
+    <div class="popup-video-container">
+      <video id="popupVideo" controls playsinline>
+        <source id="popupVideoSource" src="" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="popup-content">
+      <h2 id="popupTitle">Mystery Box</h2>
+
+      <p id="popupText">
+        Your surprise message will appear here 💌
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- 5. QUIZ -->
+<section class="content">
+ <div class="section-inner">
+  <p class="section-label">🧠 ACTIVITY TWO</p>
+  <h2>How Well Do You Know about us?</h2>
+  <p class="muted">A fun friendship quiz!..</p>
+  <div class="panel" style="max-width:600px">
+   <div class="progress"><div id="progressFill"></div></div>
+   <p id="quizCounter" class="pink">Question 1 of 5</p>
+   <p id="quizQuestion">Ready to test our friendship?</p>
+   <div id="quizOptions"></div>
+   <p id="quizFeedback" aria-live="polite" class="pink"></p>
+   <button id="quizNext" class="hidden">Next Question ➜</button>
+   <button id="quizRestart" class="hidden">🔄 Play Again</button>
+  </div>
+ </div>
+</section>
+
+<!-- 6. MEMORY FLIP CARDS -->
+<section class="content" style="background:#1b0c24">
+ <div class="section-inner">
+  <p class="section-label">🃏 ACTIVITY THREE</p>
+  <h2>Flip a Memory Card</h2>
+  <p class="muted">Tap any card to reveal a secret friendship memory.</p>
+  <div class="memory-grid" id="memoryGrid" style="max-width:700px;margin:25px auto">
+   <button class="memory-card">💌</button>
+   <button class="memory-card">💌</button>
+   <button class="memory-card">💌</button>
+   <button class="memory-card">💌</button>
+   <button class="memory-card">💌</button>
+   <button class="memory-card">💌</button>
+   <button class="memory-card">💌</button>
+   <button class="memory-card">💌</button>
+  </div>
+  <p id="memoryCount" class="pink" aria-live="polite">Memories revealed: 0 / 8</p>
+ </div>
+</section>
+
+<section class="content">
+  <div class="section-inner">
+    <p class="section-label">💖 ACTIVITY FOUR</p>
+    <h2>Why You Are Special</h2>
+
+    <div class="panel" style="max-width:650px">
+      <div style="font-size:45px">💗</div>
+
+      <p id="reasonText" class="script pink" style="font-size:27px;min-height:70px">
+        Tap below to discover a reason!
+      </p>
+
+      <button id="reasonBtn">
+        Tell Me Why 💕 (press again for next message)
+      </button>
+
+      <!-- PDF Button -->
+      <button id="pdfBtn" type="button">
+        📜 Open My Special Letter 💖
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- 8. POP HEARTS GAME -->
+<section class="content" style="background:#1b0c24">
+ <div class="section-inner">
+  <p class="section-label">🎈 ACTIVITY FIVE</p>
+  <h2>Catch the Food!(Sooru mukkiyam)</h2>
+  <p class="muted">Click or tap the foods inside the game area before time runs out.</p>
+  <p style="margin-top:12px">Score: <span id="heartScore" class="pink">0</span> · Time: <span id="heartTime" class="pink">15</span>s</p>
+  <div class="game-area" id="gameArea" aria-label="Heart catching game area">
+   <p id="gameHint" class="muted" style="padding:80px 10px">Press Start Game to begin! 💕</p>
+  </div>
+  <button id="gameStart">🎈 Start Game</button>
+  <p id="gameResult" class="pink" aria-live="polite"></p>
+ </div>
+</section>
+
+<!-- 9. SECRET CODE -->
+<section class="content">
+ <div class="section-inner">
+  <p class="section-label">🔐 ACTIVITY SIX</p>
+  <h2>A Secret Just for You</h2>
+  <p class="muted">Enter your secret code to unlock a hidden message.</p>
+  <div class="panel" style="max-width:500px">
+   <p>Hint: The special nickname I use for you! 😉</p>
+   <form id="secretForm">
+    <input id="secretInput" type="password" placeholder="Enter secret code" aria-label="Secret code" autocomplete="off" required>
+    <br>
+    <button type="submit">🔓 Unlock My Secret</button>
+   </form>
+   <p id="secretFeedback" aria-live="polite" class="pink"></p>
+   <div id="secretReveal" class="hidden">
+    <p class="script pink" style="font-size:30px">You are my chosen family. 🫂</p>
+    <p>Whatever happens, remember that you have someone who is cheering for you and wishing you happiness every single day. I will be always there for you panguu.ethukum kavala padatha na iruka enna aanalum na iruka na irupa eppaiyum unna nimatihya vidama tholla pannurathuku and finally many more happy returns of the day panguuuu.ippadiku na tha🤣
+    </p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<!-- 10. FRIENDSHIP FORTUNE -->
+<section class="content" style="background:#1b0c24">
+ <div class="section-inner">
+  <p class="section-label">🔮 ACTIVITY SEVEN</p>
+  <h2>Your Friendship Fortune</h2>
+  <div class="panel" style="max-width:600px">
+   <div style="font-size:45px">🔮</div>
+   <p id="fortuneText" class="fortune" aria-live="polite">Your friendship fortune is waiting...</p>
+   <button id="fortuneBtn">✨ Reveal My Fortune</button>
+  </div>
+ </div>
+</section>
+
+<!-- 11. TIMELINE
+<section class="content">
+ <div class="section-inner">
+  <p class="section-label">🕰️ ACTIVITY EIGHT</p>
+  <h2>Our Friendship Story</h2>
+  <p class="muted">Customize these moments with your real dates and memories.</p>
+  <div class="timeline">
+   <div class="timeline-item">
+    <h3 class="pink">🌸 The Beginning</h3>
+    <p>When two people started a friendship that became something special.</p>
+   </div>
+   <div class="timeline-item">
+    <h3 class="pink">😂 The Crazy Memories</h3>
+    <p>All those moments when we laughed until our stomachs hurt.</p>
+   </div>
+   <div class="timeline-item">
+    <h3 class="pink">🤝 Always There</h3>
+    <p>Supporting each other, even when life gets difficult.</p>
+   </div>
+   <div class="timeline-item">
+    <h3 class="pink">💖 All the Moments Ahead</h3>
+    <p>The best memories are still waiting for us.</p>
+   </div>
+  </div>
+ </div>
+</section> -->
+
+<!-- 12. FINAL CELEBRATION -->
+<section class="final">
+ <div class="section-inner">
+  <div class="final-heart">❤️</div>
+  <p class="section-label">A LITTLE SOMETHING FROM ME</p>
+  <h2>Here's to Our Friendship!</h2>
+  <p>More adventures. More laughter. More unforgettable memories.</p>
+  <p class="pink" style="margin-top:15px">Best friends today, tomorrow and always. 💕</p>
+  <button id="celebrateBtn">🎉 Celebrate Our Friendship</button>
+  <button id="letterBtn">💌 One Last Message</button>
+  <div id="finalLetter" class="panel hidden" style="max-width:600px;margin:25px auto">
+   <p class="script pink" style="font-size:30px">To my favorite human...</p>
+   <p>Thank you for being part of my life. You are appreciated more than words can explain. No matter how busy life gets, I hope we never stop making memories together. Always keep smiling. You deserve all the happiness in the world. ❤️</p>
+   <p class="script pink" style="font-size:25px;margin-top:15px">With lots of love, your Best friends 💖</p>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>Made with frindship, love and more unforgettable memories just for you. ❤️</footer>
+<script>
+  document.getElementById("pdfBtn").addEventListener("click", function () {
+    window.open("images/Happy Birthday B!.pdf", "_blank");
+  });
+</script>
+<script>
+
+/* ==========================================
+   PERSONALIZE THESE SETTINGS
+========================================== */
+
+const SETTINGS = {
+  friendName: "shanuu",
+  secretCode: "pangu",
+
+  // Replace these questions with your own.
+  quiz: [
+    {
+      question: "After an hour of rant and gossip, we end the call by saying...",
+      options: ["Namaku edhuku idhellam, seri vidu", "Seri de, bye!", " Paarthukalam"],
+      answer: 0
+    },
+    
+    {
+      question: "What is our OG kalan spot?",
+      options: ["Hopes kalan kada", "Chruch road(brooks) kalan shop", "Lovely kalan shop"],
+      answer: 1
+    },
+    {
+      question: "After knowing me for all these years, what do you think I am to you?",
+      options: ["Best friend ❤️", "Permanent headache 😂","Family 🫶🏻", "All of the above — unfortunately 😭"],
+      answer: 3
+    },
+    {
+      question: "If we had a friendship award, what would we win? ",
+      options: [" Long-distance friendship survivors"," Best “we need to meet soon” friendship", "Best gossipers", " Most chaotic duo"],
+      answer: 0
+    },
+    {
+      question: "What’s the best thing about our friendship?",
+      options: ["Our endless memories", "The amount of nonsense we talk", "Knowing we’ll always have each other"," Literally everything ❤️"],
+      answer: 3
+    },
+    {
+      question: "why do you keep me around?",
+      options: [" Free entertainment", "You'd miss my terrible advice", "I'm the only one who tolerates you"," Honestly, you're one of the good ones"],
+      answer: 3
+    }
+  ],
+
+  memories: [
+    "Our first laugh 😂",
+    "Crazy adventures 🌈",
+    "Our silly jokes 🤭",
+    "Late conversations 🌙",
+    "Unforgettable days 📸",
+    "Being there 🤝",
+    "Endless smiles 😊",
+    "Forever friends ❤️"
+  ],
+
+  reasons: [
+    "Hey Mommyyyy! 💙Thank you for always being there, and especially for always being the same! And I know for sure that soon, all the things will happen the way we want! I wish you nothing but happiness, success, financial independence, and a peaceful life. Trust me nammalum kallakuvom raa kannuuu, naan hope (niraya) vechurukren! When life gives me serupadi, automatic ah thondrathu shanu ku phn adi nu thaan! 😂I love you to the moon and back guuurrrl! 💙🧿👯‍♀️",
+    " Happy Happy Birthday. Shanumathi♥️✨I hope this year brings you all the happiness, peace, love, and success you truly deserve. I’m genuinely grateful to have you in my life. 🫶🏻It feels so nostalgic thinking about how we once celebrated our birthdays together in the hostel, and now life has taken us to different places. 🥹❤️ Even though we’re apart now, those memories will always be so special to me, and I’m really grateful for all the beautiful moments we’ve shared. May all the little things you wish for  find their way to you, and may you always have reasons to smile, laugh, and feel proud of yourself. Keep being the amazing person you are, and never forget how loved and special you are 🥰Here’s to more memories, endless conversations, random laughs, crazy moments, and many more birthdays together!With love,Your Zee ♥️♥️",
+    "Happy Birthday to my sister from another mother! 😂❤️ You’re getting older, but don’t worry… your secrets are safe with me. Because I’ve forgotten most of them already! 🤣 Keep smiling, keep annoying everyone, and especially keep annoying me. 😜 Have an amazing birthday, old lady! 🎂😂❤️",
+    "Happiest of birthday Shanu ka🤍🫂.Clg la engaluku kedacha miga periya gift nega!🥹Athuku Epavum grateful.U treated us as your own brother shanu☺️.Nama bond peak agum pothu nama ona iruka mudila athu knjm varuthanu tha!Naga ketathuku no nu sonathe ila!The way u roast others is ultimate😂!Malaysia la especially antha night walk pesite ponathu sema jolly ah irunchu kuda porantha akka kuda pesuna mari feel kuduthuchu.Apo U made me happy shanu ka☺️Athuku nandrigal.Enga five members ah treat panathu so so special ah irunchu!Cls la anaiku Otti vitathu la maraka mudiyathu.Nega Epavum special tha shanu enagaluku.ithe mari irunga Epavum nalarkum ungaluku! Life la inum Adutha Adutha stage ku porathuku wishes shanu ka🫂.neraya iruku inum sollatha memories lam additional tha Vangi eluthanum 😂.Happy to have you as sister in our life shanu🥹thanks!Once again happiest birthday shanu ka🫂Ithe mari happy ah irunga,stay healthy!Ungaluku kaga naga Epavum irupom shanu ka🤍🫂Lots of love for u🫶💖.Long huggies🫂🥹and miss u shanu🥹🫂",
+
+    "Hi Shanu… Wishing you a very special birthday! 🎂❤️ Initially, I knew you as Shru’s friend …..Yeahhh, she was one of my mutuals, that’s all. But as time went on, I started to realize that you weren’t just a mutual anymore. You became our very own friend. ❤️ Your caring nature and kindness toward everyone are truly unmatched, Shanu. Sometimes, I honestly find myself thinking, “Why haven’t I done some of the things Shanu has done?” I’m also beyond happy about one thing , that you’ll always be there with us, not just as a friend, but as family forever. ❤️ I wish for only the greatest things to happen in your life, and I hope all the happiness you deserve finds its way to you whenever you need it. Happy Birthday once again, Shanu! 🎂❤️",
+    "HAPPY BIRTHDAY DHEVIAMEY☺️🩵🫂 Clg starting time la your the first person that i was feeling embarrassed in hope bus stop 😅 Cha intha akka munati ya ipdi irukanum .. i was feeling bad that day .. ana ipo apdi illa dhevimey ☺️ Yenku nee rembo spl the way you treated me as your own brother ..  naama cls la grp separate pannuvaga la .. apo nee yenoda team la irudha apdi na etho oru thairiyam varum yenku automatic … akka iruku paathupaga … aprom nee notes illa assignment muduchituya call pani kekkura apo … bike la bodi pora apo nee panic agurathu .. call pani safe poitya thango kekkura .. illa na ethachum solrathuku call pana … attend panni solu sammi soluva theriuma apo ellam yenku  I THOUGHT SHE OWNS ME other than 4 members .. 🧿🫂 Dheivamey .. your the first person apart from my family who cryed and feel proud for me … 🫂 and my success … intha marri la na experience panthu ila .. ana intha marri  yarum irukamatga aangi  iruken .. but athu ellam unakita complete  yenku keduchathu dheviamey 🥹🫂  i feel so so special .. yenku  Nalla therium 5 thambi la na epaum unaku oru  Step athikam nu .. 😂 soo thanks for being there for me in all my situations sanmathi akka 🩵☺️ Dheivamey once again happy birthday ☺️🩵Happy iru health pathuko .. you know that i will be always be like shadow behind you so don’t  be happy Dheivamey 🩵🫂 Sanmathi boys😍",
+    "Shanu why spl na avaga koda iruka apo romba comfort ah and oru vibe ah irukum.!!! Epavum sirika vechute iruka.!!! Sirusuuu iku epavum happy ah irukanum.!!! Many more happy returns of the day sirusuuuu❤️🫶",
+    "Happiest Borndayyy kaa💗naama idhu varaikum nerla meet pannadhu illa but we had a lots of talk through call and dm's😁apdi pesurapo kooda it felt like meeting in real life 🥂seekiro meet pannuvom fun pannalaam🕺🏻apro most important treat uh mukkiyo kaa😅Once again a Veryy Happiest Borndayyy kaaa🥳🥳💗🥂",
+    "Happy Birthday, Sanmathi! ❤️🫶 Seriously, I can’t imagine completing my MBA without you by my side. You’re genuinely such a good soul, and I’m so grateful that life gave me a friend like you. 🥹❤️ Of course, we’ve had our ups and downs, misunderstandings, and our own little fights 😂 but somehow, at the end of the day, our friendship has always remained the same. That’s what makes our bond so special to me. Thank you for always being there for me, for standing by my side, and for being someone I can always count on. I’ll always be grateful for all the memories, the laughs, the struggles, and everything we’ve shared throughout this MBA journey. ❤️I really hope our friendship stays the same no matter where life takes us. You deserve all the happiness, love, and beautiful things in life. 🫂✨Happy Birthday once again, my bestie! ❤️ Love you always! 🥹🫶",
+    "Happy Birthday to you, my dearest friend! ❤️ I hope this year brings you endless happiness, love, success, and all the beautiful things you deserve. I’m so lucky to have grown up with you, and I hope our friendship stays this special for many, many more years. Love you always! 🫶🏻✨       You’re so special to me because you’ve been one of those rare people who has always stood by me, no matter what. You’re someone I can completely trust and rely on, and knowing that I have you by my side gives me a sense of comfort that’s hard to put into words. You’re genuinely such a sweet, honest, and kind-hearted person, and I truly admire how real and sincere you are. From all our childhood memories to everything we’ve grown through together, you’ve remained the same beautiful person at heart. I’m so grateful to have a friend like you—someone who listens, understands, supports me, and never makes me feel alone. Having you in my life for so many years is something I’ll always cherish, and I hope our friendship stays this special for many, many more years. ❤️",
+    "இனிய பிறந்தநாள் வாழ்த்துக்கள்! 🥳🎂❤️எப்பவும் சந்தோஷமா இருக்கணும். உங்களுக்கு பிடிச்ச எல்லாமே கிடைக்கணும். 😊 இந்த வருடம் உங்களுக்கு நிறைய நல்ல விஷயங்கள் நடக்கணும். Take care and enjoy your day! 💐🎉By anbu thambi"
+    
+  ],
+
+  fortunes: [
+    "The stars see a heart that has been tired, and they promise gentler days are on their way.",
+    "A person who loves her friends this fiercely is already someone the world needs.",
+    "Your kindness is a light, and the people you've lit up will carry you through the dark seasons.",
+    "This chapter feels heavy, but your story is far from over.",
+    "A door you can't see yet is quietly opening, and behind it is a work life that feels like yours.",
+    "Someone is out there who will cherish the same loyalty you give so freely.",
+    "Your next year holds small joys that will surprise you, and one of them is closer than you think.",
+    "You don't have to carry everything alone. The ones who love you are already holding some of it.",
+    "Your body has carried you through a lot, and the stars say it is learning to rest and heal.",
+    "The right people and the right answers are finding their way to you.",
+    "Your energy will return, and the laughter you share with your friends will be part of the medicine.",
+    "Another year of you means another year of being loved, and your best chapters are still ahead."
+  ]
+};
+
+/* ==========================================
+   HELPERS
+========================================== */
+
+const $ = id => document.getElementById(id);
+
+function shuffle(array) {
+  const result = [...array];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
+function confetti(amount = 90) {
+  const symbols = ["💖", "✨", "🎉", "💕", "⭐", "🎊"];
+  for (let i = 0; i < amount; i++) {
+    const piece = document.createElement("span");
+    piece.className = "confetti";
+    piece.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+    piece.style.left = Math.random() * 100 + "vw";
+    piece.style.fontSize = 12 + Math.random() * 18 + "px";
+    piece.style.animationDuration = 2 + Math.random() * 3 + "s";
+    document.body.appendChild(piece);
+    setTimeout(() => piece.remove(), 5500);
+  }
+}
+
+function floatHeart() {
+  const heart = document.createElement("span");
+  heart.className = "heart-float";
+  heart.textContent = ["❤️", "💕", "💖", "💗", "✨"][Math.floor(Math.random() * 5)];
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.fontSize = 15 + Math.random() * 20 + "px";
+  heart.style.animationDuration = 5 + Math.random() * 5 + "s";
+  document.body.appendChild(heart);
+  setTimeout(() => heart.remove(), 10500);
+}
+
+let heartInterval = null;
+if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  heartInterval = setInterval(floatHeart, 1300);
+}
+
+/* ==========================================
+   WELCOME
+========================================== */
+
+$("friendHeading").textContent = SETTINGS.friendName + "!";
+$("friendName").textContent = SETTINGS.friendName;
+
+$("startBtn").addEventListener("click", () => {
+  $("mainContent").classList.remove("hidden");
+  $("startBtn").textContent = "💖 Your Surprise Is Open!";
+  $("startBtn").disabled = true;
+  confetti(60);
+  $("mainContent").scrollIntoView({ behavior: "smooth" });
+});
+
+/* ==========================================
+   MYSTERY BOXES
+========================================== */
+
+const boxMessages = [
+  "🎀 Surprise one: You make the world a little brighter!",
+  "💌 Surprise two: Some of my favorite memories have you in them.",
+  "💖 Surprise three: You will always have a special place in my heart."
+];
+
+const openedBoxes = new Set();
+
+document.querySelectorAll("[data-box]").forEach(button => {
+  button.addEventListener("click", () => {
+    const index = Number(button.dataset.box);
+    if (openedBoxes.has(index)) return;
+
+    openedBoxes.add(index);
+    button.textContent = ["🧋", "🚙", "🧨🎆"][index];
+    const small = document.createElement("small");
+    small.textContent = "Opened!";
+    button.appendChild(small);
+    button.disabled = true;
+
+    $("boxMessage").textContent = boxMessages[index];
+
+    if (openedBoxes.size === 3) {
+      $("boxMessage").textContent += " 🎉 You opened all the surprises!";
+      confetti(35);
+    }
+  });
+});
+
+/* ==========================================
+   QUIZ
+========================================== */
+
+let quizIndex = 0;
+let quizScore = 0;
+let quizAnswered = false;
+
+function renderQuiz() {
+  const quiz = SETTINGS.quiz[quizIndex];
+  quizAnswered = false;
+
+  $("quizCounter").textContent =
+    `Question ${quizIndex + 1} of ${SETTINGS.quiz.length}`;
+
+  $("progressFill").style.width =
+    `${(quizIndex / SETTINGS.quiz.length) * 100}%`;
+
+  $("quizQuestion").textContent = quiz.question;
+  $("quizFeedback").textContent = "";
+  $("quizOptions").replaceChildren();
+  $("quizNext").classList.add("hidden");
+  $("quizRestart").classList.add("hidden");
+
+  quiz.options.forEach((option, index) => {
+    const button = document.createElement("button");
+    button.className = "quiz-option";
+    button.textContent = `${String.fromCharCode(65 + index)}. ${option}`;
+
+    button.addEventListener("click", () => {
+      if (quizAnswered) return;
+      quizAnswered = true;
+
+      const correct = index === quiz.answer;
+      if (correct) quizScore++;
+
+      $("quizFeedback").textContent = correct
+        ? "🎉 That's right! Great answer!"
+        : `💕 Nice try! The answer is: ${quiz.options[quiz.answer]}`;
+
+      button.style.borderColor = correct ? "#62d99b" : "#ff8ba8";
+
+      [...$("quizOptions").children].forEach(b => b.disabled = true);
+
+      $("quizNext").textContent =
+        quizIndex === SETTINGS.quiz.length - 1
+          ? "See My Results 💖"
+          : "Next Question ➜";
+
+      $("quizNext").classList.remove("hidden");
+    });
+
+    $("quizOptions").appendChild(button);
+  });
+}
+
+$("quizNext").addEventListener("click", () => {
+  if (quizIndex < SETTINGS.quiz.length - 1) {
+    quizIndex++;
+    renderQuiz();
+  } else {
+    $("quizQuestion").textContent =
+      `You scored ${quizScore} out of ${SETTINGS.quiz.length}!`;
+
+    $("quizOptions").replaceChildren();
+    $("quizFeedback").textContent =
+      quizScore === SETTINGS.quiz.length
+        ? "Perfect score! Friendship champion! 🏆"
+        : "Every friendship is special, whatever the score! ❤️";
+
+    $("quizCounter").textContent = "Quiz completed!";
+    $("progressFill").style.width = "100%";
+    $("quizNext").classList.add("hidden");
+    $("quizRestart").classList.remove("hidden");
+    confetti(35);
+  }
+});
+
+$("quizRestart").addEventListener("click", () => {
+  quizIndex = 0;
+  quizScore = 0;
+  renderQuiz();
+});
+
+renderQuiz();
+
+/* ==========================================
+   MEMORY FLIP CARDS
+========================================== */
+
+let memoryCount = 0;
+const memoryGrid = $("memoryGrid");
+
+const shuffledMemories = shuffle(SETTINGS.memories);
+
+[...memoryGrid.children].forEach((button, index) => {
+  button.addEventListener("click", () => {
+    if (button.dataset.revealed === "true") return;
+
+    button.dataset.revealed = "true";
+    button.classList.add("flipped");
+    button.textContent = shuffledMemories[index];
+    button.setAttribute("aria-label", shuffledMemories[index]);
+    button.disabled = true;
+
+    memoryCount++;
+    $("memoryCount").textContent =
+      `Memories revealed: ${memoryCount} / ${SETTINGS.memories.length}`;
+
+    if (memoryCount === SETTINGS.memories.length) {
+      $("memoryCount").textContent =
+        "You uncovered every little memory! ❤️";
+      confetti(25);
+    }
+  });
+});
+
+/* ==========================================
+   REASONS WHY YOU ARE SPECIAL
+========================================== */
+let lastReason = 0;
+
+$("reasonBtn").addEventListener("click", () => {
+  $("reasonText").textContent = SETTINGS.reasons[lastReason];
+
+  lastReason++;
+
+  // Start again from the first reason after reaching the end
+  if (lastReason >= SETTINGS.reasons.length) {
+    lastReason = 0;
+  }
+});
+
+/* ==========================================
+   HEART CATCHING GAME
+========================================== */
+
+let gameRunning = false;
+let gameScore = 0;
+let gameTime = 15;
+let gameTimer = null;
+let heartSpawner = null;
+let gameRound = 0;
+
+function stopGame() {
+  gameRunning = false;
+  clearInterval(gameTimer);
+  clearInterval(heartSpawner);
+  gameTimer = null;
+  heartSpawner = null;
+  $("gameArea").querySelectorAll(".game-heart").forEach(el => el.remove());
+}
+
+function finishGame() {
+  stopGame();
+  $("gameHint").classList.remove("hidden");
+  $("gameHint").textContent = "Round finished! Ready for another?";
+  $("gameStart").disabled = false;
+  $("gameStart").textContent = "🔄 Play Again";
+  $("gameResult").textContent =
+    `You caught ${gameScore} Foods! ${gameScore >= 10 ? "Amazing! 💖" : "Every Food is a little bit of love! 💕"}`;
+  if (gameScore >= 10) confetti(50);
+}
+
+function spawnGameHeart() {
+  if (!gameRunning) return;
+
+  const area = $("gameArea");
+  const heart = document.createElement("button");
+  heart.className = "game-heart";
+  heart.type = "button";
+  heart.textContent = ["🍟", "🥪", "🧋", "🍦","🍫","🍗"][Math.floor(Math.random() * 4)];
+  heart.setAttribute("aria-label", "Catch this food");
+
+  const maxX = Math.max(0, area.clientWidth - 48);
+  const maxY = Math.max(0, area.clientHeight - 55);
+
+  heart.style.left = Math.random() * maxX + "px";
+  heart.style.top = Math.random() * maxY + "px";
+
+  heart.addEventListener("click", () => {
+    if (!gameRunning) return;
+    gameScore++;
+    $("heartScore").textContent = gameScore;
+    heart.remove();
+  });
+
+  area.appendChild(heart);
+
+  setTimeout(() => heart.remove(), 1600);
+}
+
+$("gameStart").addEventListener("click", () => {
+  if (gameRunning) return;
+
+  gameRound++;
+  gameScore = 0;
+  gameTime = 15;
+
+  $("heartScore").textContent = "0";
+  $("heartTime").textContent = "15";
+  $("gameResult").textContent = "";
+  $("gameHint").classList.add("hidden");
+  $("gameStart").disabled = true;
+  $("gameStart").textContent = "😋🍴 Catch the Foods!";
+
+  gameRunning = true;
+
+  spawnGameHeart();
+  heartSpawner = setInterval(spawnGameHeart, 650);
+
+  gameTimer = setInterval(() => {
+    gameTime--;
+    $("heartTime").textContent = gameTime;
+
+    if (gameTime <= 0) finishGame();
+  }, 1000);
+});
+
+/* ==========================================
+   SECRET MESSAGE
+========================================== */
+
+$("secretForm").addEventListener("submit", event => {
+  event.preventDefault();
+
+  const entered = $("secretInput").value.trim().toLowerCase();
+  const expected = SETTINGS.secretCode.trim().toLowerCase();
+
+  if (entered === expected && expected.length > 0) {
+    $("secretReveal").classList.remove("hidden");
+    $("secretFeedback").textContent = "🎉 Secret unlocked successfully!";
+    $("secretInput").value = "";
+    confetti(35);
+  } else {
+    $("secretFeedback").textContent =
+      "Not quite! Try the special nickname again. 💕";
+  }
+});
+
+/* ==========================================
+   FRIENDSHIP FORTUNE
+========================================== */
+
+let lastFortune = -1;
+
+$("fortuneBtn").addEventListener("click", () => {
+  let index = Math.floor(Math.random() * SETTINGS.fortunes.length);
+
+  if (SETTINGS.fortunes.length > 1) {
+    while (index === lastFortune) {
+      index = Math.floor(Math.random() * SETTINGS.fortunes.length);
+    }
+  }
+
+  lastFortune = index;
+  $("fortuneText").textContent = SETTINGS.fortunes[index];
+});
+
+/* ==========================================
+   FINAL CELEBRATION
+========================================== */
+
+$("celebrateBtn").addEventListener("click", () => {
+  confetti(150);
+
+  for (let i = 0; i < 20; i++) {
+    setTimeout(floatHeart, i * 100);
+  }
+
+  $("celebrateBtn").textContent = "🎉 Friendship Forever! ❤️";
+});
+
+$("letterBtn").addEventListener("click", () => {
+  $("finalLetter").classList.toggle("hidden");
+
+  if (!$("finalLetter").classList.contains("hidden")) {
+    $("finalLetter").scrollIntoView({ behavior: "smooth", block: "center" });
+    confetti(20);
+    $("letterBtn").textContent = "💖 Hide My Message";
+  } else {
+    $("letterBtn").textContent = "💌 One Last Message";
+  }
+});
+/* =========================
+   🎂 BIRTHDAY DATE
+========================= */
+
+const birthdayDate = "2026-10-04T00:00:00+05:30";
+
+
+function updateBirthdayTimer() {
+
+  const birthday =
+    new Date(birthdayDate).getTime();
+
+  const now =
+    new Date().getTime();
+
+  const difference =
+    birthday - now;
+
+
+  /* Birthday has arrived */
+
+  if (difference <= 0) {
+
+    document.getElementById("timerDays").textContent = "00";
+    document.getElementById("timerHours").textContent = "00";
+    document.getElementById("timerMinutes").textContent = "00";
+    document.getElementById("timerSeconds").textContent = "00";
+
+    document.getElementById("timerMessage").innerHTML =
+      "🎂🎉 HAPPY BIRTHDAY! 🎉🎂";
+
+    return;
+  }
+
+
+  /* Calculate time */
+
+  const days =
+    Math.floor(
+      difference /
+      (1000 * 60 * 60 * 24)
+    );
+
+  const hours =
+    Math.floor(
+      (difference %
+        (1000 * 60 * 60 * 24)) /
+      (1000 * 60 * 60)
+    );
+
+  const minutes =
+    Math.floor(
+      (difference %
+        (1000 * 60 * 60)) /
+      (1000 * 60)
+    );
+
+  const seconds =
+    Math.floor(
+      (difference %
+        (1000 * 60)) /
+      1000
+    );
+
+
+  /* Display */
+
+  document.getElementById("timerDays").textContent =
+    String(days).padStart(2, "0");
+
+  document.getElementById("timerHours").textContent =
+    String(hours).padStart(2, "0");
+
+  document.getElementById("timerMinutes").textContent =
+    String(minutes).padStart(2, "0");
+
+  document.getElementById("timerSeconds").textContent =
+    String(seconds).padStart(2, "0");
+
+}
+
+
+/* Start timer */
+
+updateBirthdayTimer();
+
+setInterval(updateBirthdayTimer, 1000);
+
+
+</script>
+<script>
+
+const mysteryBoxes = document.querySelectorAll(".mystery");
+
+const mysteryPopup = document.getElementById("mysteryPopup");
+const closePopup = document.getElementById("closePopup");
+
+const popupVideo = document.getElementById("popupVideo");
+const popupVideoSource = document.getElementById("popupVideoSource");
+
+const popupTitle = document.getElementById("popupTitle");
+const popupText = document.getElementById("popupText");
+
+const boxMessage = document.getElementById("boxMessage");
+
+
+/* Mystery Box Data */
+
+const mysteryData = [
+
+  {
+    title: "Worlds best food reviwer",
+    text: "",
+    video: "videos/11.mp4"
+  },
+
+  {
+    title: "Pro driver in CBE",
+    text: "",
+    video: "videos/2.mp4"
+  },
+
+  {
+    title: "fearless Girl ever seen.!!",
+    text: "",
+    video: "videos/3.mp4"
+  }
+
+];
+
+
+/* Open Mystery Box */
+
+mysteryBoxes.forEach((box) => {
+
+  box.addEventListener("click", function () {
+
+    const boxNumber = Number(this.dataset.box);
+
+    const data = mysteryData[boxNumber];
+
+    /* Set title and message */
+
+    popupTitle.textContent = data.title;
+    popupText.textContent = data.text;
+
+    /* Set video */
+
+    popupVideoSource.src = data.video;
+
+    /* Reload video after changing source */
+
+    popupVideo.load();
+
+    /* Show popup */
+
+    mysteryPopup.classList.add("active");
+    mysteryPopup.setAttribute("aria-hidden", "false");
+
+    /* Update message below boxes */
+
+    boxMessage.textContent =
+      "You opened Box " + (boxNumber + 1) + "! 💌";
+
+  });
+
+});
+
+
+/* Close Popup */
+
+function closeMysteryPopup() {
+
+  mysteryPopup.classList.remove("active");
+  mysteryPopup.setAttribute("aria-hidden", "true");
+
+  /* Stop video */
+
+  popupVideo.pause();
+  popupVideo.currentTime = 0;
+
+}
+
+
+closePopup.addEventListener("click", closeMysteryPopup);
+
+
+/* Close when clicking outside the card */
+
+mysteryPopup.addEventListener("click", function (event) {
+
+  if (event.target === mysteryPopup) {
+    closeMysteryPopup();
+  }
+
+});
+
+
+/* Close with ESC key */
+
+document.addEventListener("keydown", function (event) {
+
+  if (event.key === "Escape") {
+    closeMysteryPopup();
+  }
+
+});
+
+</script>
+</body>
+</html>
